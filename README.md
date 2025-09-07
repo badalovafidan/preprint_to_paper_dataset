@@ -1,7 +1,7 @@
 # BioRxiv–Crossref Preprint–Publication Matching
 
 ## Introduction
-Code for collecting and matching BioRxiv and Crossref preprint/publication metadata enriching dataset. Provides a pipeline to query APIs, calculate custom fields (title/author match score, author count difference, date differences), and detect “Gray Zone” cases (articles published but missing DOIs in BioRxiv).
+Code for collecting and matching BioRxiv and Crossref preprint/publication metadata and enriching dataset. Provides a pipeline to query APIs, calculate custom fields (title/author match score, author count difference, date differences), and detect “Gray Zone” cases (articles published but missing DOIs in BioRxiv).
 
 ## Functionality
 This repository provides **codes** of preprint–publication linkage research based on BioRxiv and Crossref data sources. The project:
