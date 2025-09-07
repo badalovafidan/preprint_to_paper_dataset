@@ -4,11 +4,11 @@ import pandas as pd   # read/write csv files
 # parameters
 server = "biorxiv" # server name: biorxiv or medrxiv
 start_date = "2016-01-01" # start date of the period you want to download metadata for
-end_date = "2018-01-31" # end date of the period you want to download metadata for
+end_date = "2018-12-31" # end date of the period you want to download metadata for
 api_url = f"https://api.biorxiv.org/details/{server}/{start_date}/{end_date}/" # api for retrieve metadata
 start_point_cursor = 0    # start point of request
-max_limit_cursor = 100  # limit for the request
-step_count = 10          # each query returns 100 results.
+max_limit_cursor = 51149  # limit for the request
+step_count = 100          # each query returns 100 results.
 output_file = "data/downloadedBiorxiv.csv"
 
 # sends a GET request to the given URL and returns a JSON response.
