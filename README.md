@@ -62,7 +62,7 @@ python find_missing_links_crossref.py
 ```
 
 ### **Step 5: Gray Zone Verification (Author Metrics)**
-- `verify_missing_links_by_author_match.py` – Confirm title matches using **author similarity** and calculate **author match score**  
+- `verify_missing_links_by_author_match.py` – Confirm title matches by calculating **author similarity** and  **author count difference**
 
 ```bash
 python verify_missing_links_by_author_match.py
@@ -80,7 +80,7 @@ python standardize_crossref_dates.py
 python merge_publication_dates.py
 ```
 3. `calculate_date_difference.py` – Calculate:
-   - `custom_biorxivVersion_dateDifference` (first vs last submission)  
+   - `custom_biorxivVersion_dateDifference` (initial vs last submission)  
    - `custom_submission&publication_dateDiff` (submission vs publication)  
 
 ```bash
