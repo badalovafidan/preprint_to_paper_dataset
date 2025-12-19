@@ -37,6 +37,11 @@ python filter_1st_and_last_version.py
 ```bash
 python pivot_biorxiv_data.py
 ```
+4. (optional) `create_version_history.py` – Create extra version-history subset with the preprints that have version 1 and at least one additional version within the study periods.
+
+```bash
+python create_version_history.py
+```
 
 ### **Step 2: Crossref Metadata Retrieval**
 - `download_crossref.py` – Download publication metadata from Crossref for all published DOIs  from BioRxiv
