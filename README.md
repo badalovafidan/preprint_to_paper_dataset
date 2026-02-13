@@ -1,5 +1,12 @@
 # PreprintToPaper dataset: connecting bioRxiv preprints with journal publications
 
+This repository provides additional materials (scripts and data) for the accepted dataset paper in Nature Scientific Data.
+
+Badalova, F., Sienkiewicz, J., & Mayr, P. (2026 to appear). PreprintToPaper dataset: Connecting bioRxiv preprints with journal publications. Nature Scientific Data. https://doi.org/10.48550/arXiv.2510.01783 
+
+The dataset supporting this study has been stored in Zenodo and is openly
+accessible at https://doi.org/10.5281/zenodo.17992421  
+
 ## Introduction
 Code for collecting and matching BioRxiv and Crossref preprint/publication metadata and enriching dataset. Provides a pipeline to query APIs, calculate custom fields (title/author match score, author count difference, date differences), and detect “Gray Zone” cases (articles published but missing DOIs in BioRxiv).
 
